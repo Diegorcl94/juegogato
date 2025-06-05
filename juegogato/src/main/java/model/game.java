@@ -16,5 +16,10 @@ public class Game {
     @Column(nullable = false)
     private Integer moveCount;
     private String winner; // "X", "O", "CPU", or "Draw"
+    @Column(nullable = false)
+    private String startingPlayer;
+    @OneToMany(mappedBy = "game",cascade =CascadeType.ALL, fetch = FetchType.LAZY)
+    private List<Move> moves;
+    public Game
 
 }
