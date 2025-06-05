@@ -1,5 +1,5 @@
 package model;
-package cl.duoc.dicolipe.juegogato.model;
+
 
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
