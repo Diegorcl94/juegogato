@@ -16,5 +16,5 @@ public class Game {
     @Column(nullable = false)
     private Integer moveCount;
     private String winner; // "X", "O", "CPU", or "Draw"
-    
+
 }
